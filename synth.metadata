@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-assured-workloads.git",
-        "sha": "76dc03176631f4114c9d1d4a6de349999b4e31a1"
+        "sha": "bca55e32397ee1ff1b0a25f7f45d16fcf96d0c16"
       }
     },
     {
@@ -19,7 +19,7 @@
       "git": {
         "name": "synthtool",
         "remote": "https://github.com/googleapis/synthtool.git",
-        "sha": "95dbe1bee3c7f7e52ddb24a54c37080620e0d1a2"
+        "sha": "da29da32b3a988457b49ae290112b74f14b713cc"
       }
     }
   ],
@@ -92,7 +92,6 @@
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
     "LICENSE",
-    "README.md",
     "codecov.yaml",
     "google-cloud-assured-workloads/src/main/java/com/google/cloud/assuredworkloads/v1beta1/AssuredWorkloadsServiceClient.java",
     "google-cloud-assured-workloads/src/main/java/com/google/cloud/assuredworkloads/v1beta1/AssuredWorkloadsServiceSettings.java",
