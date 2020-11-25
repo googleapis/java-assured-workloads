@@ -22,13 +22,7 @@ import static io.grpc.stub.ClientCalls.futureUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
-/**
- *
- *
- * <pre>
- * Service to manage AssuredWorkloads.
- * </pre>
- */
+/** */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler",
     comments = "Source: google/cloud/assuredworkloads/v1beta1/assuredworkloads_v1beta1.proto")
@@ -317,38 +311,17 @@ public final class AssuredWorkloadsServiceGrpc {
     return AssuredWorkloadsServiceFutureStub.newStub(factory, channel);
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Service to manage AssuredWorkloads.
-   * </pre>
-   */
+  /** */
   public abstract static class AssuredWorkloadsServiceImplBase implements io.grpc.BindableService {
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates Assured Workload.
-     * </pre>
-     */
+    /** */
     public void createWorkload(
         com.google.cloud.assuredworkloads.v1beta1.CreateWorkloadRequest request,
         io.grpc.stub.StreamObserver<com.google.longrunning.Operation> responseObserver) {
       asyncUnimplementedUnaryCall(getCreateWorkloadMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates an existing workload.
-     * Currently allows updating of workload display_name and labels.
-     * For force updates don't set etag field in the Workload.
-     * Only one update operation per workload can be in progress.
-     * </pre>
-     */
+    /** */
     public void updateWorkload(
         com.google.cloud.assuredworkloads.v1beta1.UpdateWorkloadRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.assuredworkloads.v1beta1.Workload>
@@ -356,28 +329,14 @@ public final class AssuredWorkloadsServiceGrpc {
       asyncUnimplementedUnaryCall(getUpdateWorkloadMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes the workload. Make sure that workload's direct children are already
-     * in a deleted state, otherwise the request will fail with a
-     * FAILED_PRECONDITION error.
-     * </pre>
-     */
+    /** */
     public void deleteWorkload(
         com.google.cloud.assuredworkloads.v1beta1.DeleteWorkloadRequest request,
         io.grpc.stub.StreamObserver<com.google.protobuf.Empty> responseObserver) {
       asyncUnimplementedUnaryCall(getDeleteWorkloadMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets Assured Workload associated with a CRM Node
-     * </pre>
-     */
+    /** */
     public void getWorkload(
         com.google.cloud.assuredworkloads.v1beta1.GetWorkloadRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.assuredworkloads.v1beta1.Workload>
@@ -385,13 +344,7 @@ public final class AssuredWorkloadsServiceGrpc {
       asyncUnimplementedUnaryCall(getGetWorkloadMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists Assured Workloads under a CRM Node.
-     * </pre>
-     */
+    /** */
     public void listWorkloads(
         com.google.cloud.assuredworkloads.v1beta1.ListWorkloadsRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.assuredworkloads.v1beta1.ListWorkloadsResponse>
@@ -439,13 +392,7 @@ public final class AssuredWorkloadsServiceGrpc {
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Service to manage AssuredWorkloads.
-   * </pre>
-   */
+  /** */
   public static final class AssuredWorkloadsServiceStub
       extends io.grpc.stub.AbstractAsyncStub<AssuredWorkloadsServiceStub> {
     private AssuredWorkloadsServiceStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -458,13 +405,7 @@ public final class AssuredWorkloadsServiceGrpc {
       return new AssuredWorkloadsServiceStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates Assured Workload.
-     * </pre>
-     */
+    /** */
     public void createWorkload(
         com.google.cloud.assuredworkloads.v1beta1.CreateWorkloadRequest request,
         io.grpc.stub.StreamObserver<com.google.longrunning.Operation> responseObserver) {
@@ -474,16 +415,7 @@ public final class AssuredWorkloadsServiceGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates an existing workload.
-     * Currently allows updating of workload display_name and labels.
-     * For force updates don't set etag field in the Workload.
-     * Only one update operation per workload can be in progress.
-     * </pre>
-     */
+    /** */
     public void updateWorkload(
         com.google.cloud.assuredworkloads.v1beta1.UpdateWorkloadRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.assuredworkloads.v1beta1.Workload>
@@ -494,15 +426,7 @@ public final class AssuredWorkloadsServiceGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes the workload. Make sure that workload's direct children are already
-     * in a deleted state, otherwise the request will fail with a
-     * FAILED_PRECONDITION error.
-     * </pre>
-     */
+    /** */
     public void deleteWorkload(
         com.google.cloud.assuredworkloads.v1beta1.DeleteWorkloadRequest request,
         io.grpc.stub.StreamObserver<com.google.protobuf.Empty> responseObserver) {
@@ -512,13 +436,7 @@ public final class AssuredWorkloadsServiceGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets Assured Workload associated with a CRM Node
-     * </pre>
-     */
+    /** */
     public void getWorkload(
         com.google.cloud.assuredworkloads.v1beta1.GetWorkloadRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.assuredworkloads.v1beta1.Workload>
@@ -529,13 +447,7 @@ public final class AssuredWorkloadsServiceGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists Assured Workloads under a CRM Node.
-     * </pre>
-     */
+    /** */
     public void listWorkloads(
         com.google.cloud.assuredworkloads.v1beta1.ListWorkloadsRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.assuredworkloads.v1beta1.ListWorkloadsResponse>
@@ -547,13 +459,7 @@ public final class AssuredWorkloadsServiceGrpc {
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Service to manage AssuredWorkloads.
-   * </pre>
-   */
+  /** */
   public static final class AssuredWorkloadsServiceBlockingStub
       extends io.grpc.stub.AbstractBlockingStub<AssuredWorkloadsServiceBlockingStub> {
     private AssuredWorkloadsServiceBlockingStub(
@@ -567,79 +473,38 @@ public final class AssuredWorkloadsServiceGrpc {
       return new AssuredWorkloadsServiceBlockingStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates Assured Workload.
-     * </pre>
-     */
+    /** */
     public com.google.longrunning.Operation createWorkload(
         com.google.cloud.assuredworkloads.v1beta1.CreateWorkloadRequest request) {
       return blockingUnaryCall(getChannel(), getCreateWorkloadMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates an existing workload.
-     * Currently allows updating of workload display_name and labels.
-     * For force updates don't set etag field in the Workload.
-     * Only one update operation per workload can be in progress.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.assuredworkloads.v1beta1.Workload updateWorkload(
         com.google.cloud.assuredworkloads.v1beta1.UpdateWorkloadRequest request) {
       return blockingUnaryCall(getChannel(), getUpdateWorkloadMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes the workload. Make sure that workload's direct children are already
-     * in a deleted state, otherwise the request will fail with a
-     * FAILED_PRECONDITION error.
-     * </pre>
-     */
+    /** */
     public com.google.protobuf.Empty deleteWorkload(
         com.google.cloud.assuredworkloads.v1beta1.DeleteWorkloadRequest request) {
       return blockingUnaryCall(getChannel(), getDeleteWorkloadMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets Assured Workload associated with a CRM Node
-     * </pre>
-     */
+    /** */
     public com.google.cloud.assuredworkloads.v1beta1.Workload getWorkload(
         com.google.cloud.assuredworkloads.v1beta1.GetWorkloadRequest request) {
       return blockingUnaryCall(getChannel(), getGetWorkloadMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists Assured Workloads under a CRM Node.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.assuredworkloads.v1beta1.ListWorkloadsResponse listWorkloads(
         com.google.cloud.assuredworkloads.v1beta1.ListWorkloadsRequest request) {
       return blockingUnaryCall(getChannel(), getListWorkloadsMethod(), getCallOptions(), request);
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * Service to manage AssuredWorkloads.
-   * </pre>
-   */
+  /** */
   public static final class AssuredWorkloadsServiceFutureStub
       extends io.grpc.stub.AbstractFutureStub<AssuredWorkloadsServiceFutureStub> {
     private AssuredWorkloadsServiceFutureStub(
@@ -653,29 +518,14 @@ public final class AssuredWorkloadsServiceGrpc {
       return new AssuredWorkloadsServiceFutureStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates Assured Workload.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<com.google.longrunning.Operation>
         createWorkload(com.google.cloud.assuredworkloads.v1beta1.CreateWorkloadRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getCreateWorkloadMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates an existing workload.
-     * Currently allows updating of workload display_name and labels.
-     * For force updates don't set etag field in the Workload.
-     * Only one update operation per workload can be in progress.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.assuredworkloads.v1beta1.Workload>
         updateWorkload(com.google.cloud.assuredworkloads.v1beta1.UpdateWorkloadRequest request) {
@@ -683,28 +533,14 @@ public final class AssuredWorkloadsServiceGrpc {
           getChannel().newCall(getUpdateWorkloadMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes the workload. Make sure that workload's direct children are already
-     * in a deleted state, otherwise the request will fail with a
-     * FAILED_PRECONDITION error.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<com.google.protobuf.Empty>
         deleteWorkload(com.google.cloud.assuredworkloads.v1beta1.DeleteWorkloadRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getDeleteWorkloadMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Gets Assured Workload associated with a CRM Node
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.assuredworkloads.v1beta1.Workload>
         getWorkload(com.google.cloud.assuredworkloads.v1beta1.GetWorkloadRequest request) {
@@ -712,13 +548,7 @@ public final class AssuredWorkloadsServiceGrpc {
           getChannel().newCall(getGetWorkloadMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Lists Assured Workloads under a CRM Node.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.assuredworkloads.v1beta1.ListWorkloadsResponse>
         listWorkloads(com.google.cloud.assuredworkloads.v1beta1.ListWorkloadsRequest request) {
