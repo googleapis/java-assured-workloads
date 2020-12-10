@@ -93,13 +93,13 @@ public class AssuredWorkloadsServiceClientTest {
     Workload expectedResponse =
         Workload.newBuilder()
             .setName(WorkloadName.of("[ORGANIZATION]", "[LOCATION]", "[WORKLOAD]").toString())
-            .setDisplayName("display_name1615086568")
+            .setDisplayName("displayName1714148973")
             .addAllResources(new ArrayList<Workload.ResourceInfo>())
             .setCreateTime(Timestamp.newBuilder().build())
-            .setBillingAccount("billing_account-545871767")
+            .setBillingAccount("billingAccount708726578")
             .setEtag("etag3123477")
             .putAllLabels(new HashMap<String, String>())
-            .setProvisionedResourcesParent("provisioned_resources_parent-158134097")
+            .setProvisionedResourcesParent("provisionedResourcesParent1733249115")
             .build();
     Operation resultOperation =
         Operation.newBuilder()
@@ -149,13 +149,13 @@ public class AssuredWorkloadsServiceClientTest {
     Workload expectedResponse =
         Workload.newBuilder()
             .setName(WorkloadName.of("[ORGANIZATION]", "[LOCATION]", "[WORKLOAD]").toString())
-            .setDisplayName("display_name1615086568")
+            .setDisplayName("displayName1714148973")
             .addAllResources(new ArrayList<Workload.ResourceInfo>())
             .setCreateTime(Timestamp.newBuilder().build())
-            .setBillingAccount("billing_account-545871767")
+            .setBillingAccount("billingAccount708726578")
             .setEtag("etag3123477")
             .putAllLabels(new HashMap<String, String>())
-            .setProvisionedResourcesParent("provisioned_resources_parent-158134097")
+            .setProvisionedResourcesParent("provisionedResourcesParent1733249115")
             .build();
     Operation resultOperation =
         Operation.newBuilder()
@@ -205,13 +205,13 @@ public class AssuredWorkloadsServiceClientTest {
     Workload expectedResponse =
         Workload.newBuilder()
             .setName(WorkloadName.of("[ORGANIZATION]", "[LOCATION]", "[WORKLOAD]").toString())
-            .setDisplayName("display_name1615086568")
+            .setDisplayName("displayName1714148973")
             .addAllResources(new ArrayList<Workload.ResourceInfo>())
             .setCreateTime(Timestamp.newBuilder().build())
-            .setBillingAccount("billing_account-545871767")
+            .setBillingAccount("billingAccount708726578")
             .setEtag("etag3123477")
             .putAllLabels(new HashMap<String, String>())
-            .setProvisionedResourcesParent("provisioned_resources_parent-158134097")
+            .setProvisionedResourcesParent("provisionedResourcesParent1733249115")
             .build();
     mockAssuredWorkloadsService.addResponse(expectedResponse);
 
@@ -321,13 +321,13 @@ public class AssuredWorkloadsServiceClientTest {
     Workload expectedResponse =
         Workload.newBuilder()
             .setName(WorkloadName.of("[ORGANIZATION]", "[LOCATION]", "[WORKLOAD]").toString())
-            .setDisplayName("display_name1615086568")
+            .setDisplayName("displayName1714148973")
             .addAllResources(new ArrayList<Workload.ResourceInfo>())
             .setCreateTime(Timestamp.newBuilder().build())
-            .setBillingAccount("billing_account-545871767")
+            .setBillingAccount("billingAccount708726578")
             .setEtag("etag3123477")
             .putAllLabels(new HashMap<String, String>())
-            .setProvisionedResourcesParent("provisioned_resources_parent-158134097")
+            .setProvisionedResourcesParent("provisionedResourcesParent1733249115")
             .build();
     mockAssuredWorkloadsService.addResponse(expectedResponse);
 
@@ -366,13 +366,13 @@ public class AssuredWorkloadsServiceClientTest {
     Workload expectedResponse =
         Workload.newBuilder()
             .setName(WorkloadName.of("[ORGANIZATION]", "[LOCATION]", "[WORKLOAD]").toString())
-            .setDisplayName("display_name1615086568")
+            .setDisplayName("displayName1714148973")
             .addAllResources(new ArrayList<Workload.ResourceInfo>())
             .setCreateTime(Timestamp.newBuilder().build())
-            .setBillingAccount("billing_account-545871767")
+            .setBillingAccount("billingAccount708726578")
             .setEtag("etag3123477")
             .putAllLabels(new HashMap<String, String>())
-            .setProvisionedResourcesParent("provisioned_resources_parent-158134097")
+            .setProvisionedResourcesParent("provisionedResourcesParent1733249115")
             .build();
     mockAssuredWorkloadsService.addResponse(expectedResponse);
 
