@@ -60,7 +60,6 @@ import com.google.longrunning.Operation;
 import com.google.protobuf.Empty;
 import java.io.IOException;
 import java.util.List;
-import java.util.Objects;
 import javax.annotation.Generated;
 import org.threeten.bp.Duration;
 
@@ -147,7 +146,7 @@ public class AssuredWorkloadsServiceStubSettings
 
             @Override
             public Iterable<Workload> extractResources(ListWorkloadsResponse payload) {
-              return Objects.isNull(payload.getWorkloadsList())
+              return payload.getWorkloadsList() == null
                   ? ImmutableList.<Workload>of()
                   : payload.getWorkloadsList();
             }
