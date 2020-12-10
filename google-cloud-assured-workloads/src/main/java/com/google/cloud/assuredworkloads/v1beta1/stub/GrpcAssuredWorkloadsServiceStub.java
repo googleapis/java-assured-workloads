@@ -138,12 +138,22 @@ public class GrpcAssuredWorkloadsServiceStub extends AssuredWorkloadsServiceStub
         AssuredWorkloadsServiceStubSettings.newBuilder().build(), clientContext, callableFactory);
   }
 
+  /**
+   * Constructs an instance of GrpcAssuredWorkloadsServiceStub, using the given settings. This is
+   * protected so that it is easy to make a subclass, but otherwise, the static factory methods
+   * should be preferred.
+   */
   protected GrpcAssuredWorkloadsServiceStub(
       AssuredWorkloadsServiceStubSettings settings, ClientContext clientContext)
       throws IOException {
     this(settings, clientContext, new GrpcAssuredWorkloadsServiceCallableFactory());
   }
 
+  /**
+   * Constructs an instance of GrpcAssuredWorkloadsServiceStub, using the given settings. This is
+   * protected so that it is easy to make a subclass, but otherwise, the static factory methods
+   * should be preferred.
+   */
   protected GrpcAssuredWorkloadsServiceStub(
       AssuredWorkloadsServiceStubSettings settings,
       ClientContext clientContext,
