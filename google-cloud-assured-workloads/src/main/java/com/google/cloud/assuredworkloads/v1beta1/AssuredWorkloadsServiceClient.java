@@ -37,7 +37,6 @@ import com.google.protobuf.Empty;
 import com.google.protobuf.FieldMask;
 import java.io.IOException;
 import java.util.List;
-import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 import javax.annotation.Generated;
 
@@ -176,7 +175,7 @@ public class AssuredWorkloadsServiceClient implements BackgroundResource {
       LocationName parent, Workload workload) {
     CreateWorkloadRequest request =
         CreateWorkloadRequest.newBuilder()
-            .setParent(Objects.isNull(parent) ? null : parent.toString())
+            .setParent(parent == null ? null : parent.toString())
             .setWorkload(workload)
             .build();
     return createWorkloadAsync(request);
@@ -285,9 +284,7 @@ public class AssuredWorkloadsServiceClient implements BackgroundResource {
    */
   public final void deleteWorkload(WorkloadName name) {
     DeleteWorkloadRequest request =
-        DeleteWorkloadRequest.newBuilder()
-            .setName(Objects.isNull(name) ? null : name.toString())
-            .build();
+        DeleteWorkloadRequest.newBuilder().setName(name == null ? null : name.toString()).build();
     deleteWorkload(request);
   }
 
@@ -340,9 +337,7 @@ public class AssuredWorkloadsServiceClient implements BackgroundResource {
    */
   public final Workload getWorkload(WorkloadName name) {
     GetWorkloadRequest request =
-        GetWorkloadRequest.newBuilder()
-            .setName(Objects.isNull(name) ? null : name.toString())
-            .build();
+        GetWorkloadRequest.newBuilder().setName(name == null ? null : name.toString()).build();
     return getWorkload(request);
   }
 
@@ -393,7 +388,7 @@ public class AssuredWorkloadsServiceClient implements BackgroundResource {
   public final ListWorkloadsPagedResponse listWorkloads(LocationName parent) {
     ListWorkloadsRequest request =
         ListWorkloadsRequest.newBuilder()
-            .setParent(Objects.isNull(parent) ? null : parent.toString())
+            .setParent(parent == null ? null : parent.toString())
             .build();
     return listWorkloads(request);
   }
