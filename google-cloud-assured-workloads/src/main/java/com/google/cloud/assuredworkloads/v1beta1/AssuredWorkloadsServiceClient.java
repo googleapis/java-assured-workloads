@@ -239,7 +239,7 @@ public class AssuredWorkloadsServiceClient implements BackgroundResource {
    * @param workload Required. The workload to update. The workload?s `name` field is used to
    *     identify the workload to be updated. Format:
    *     organizations/{org_id}/locations/{location_id}/workloads/{workload_id}
-   * @param update_mask Required. The list of fields to be updated.
+   * @param updateMask Required. The list of fields to be updated.
    * @throws com.google.api.gax.rpc.ApiException if the remote call fails
    */
   public final Workload updateWorkload(Workload workload, FieldMask updateMask) {
