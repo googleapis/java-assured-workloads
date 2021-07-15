@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.4.2](https://www.github.com/googleapis/java-assured-workloads/compare/v0.4.1...v0.4.2) (2021-07-15)
+
+
+### Bug Fixes
+
+* owlbot post-processor should generate README ([#1154](https://www.github.com/googleapis/java-assured-workloads/issues/1154)) ([#253](https://www.github.com/googleapis/java-assured-workloads/issues/253)) ([1443667](https://www.github.com/googleapis/java-assured-workloads/commit/1443667562ed961664035d6c725534973e64f69a)), closes [#1146](https://www.github.com/googleapis/java-assured-workloads/issues/1146) [#1147](https://www.github.com/googleapis/java-assured-workloads/issues/1147)
+
 ### [0.4.1](https://www.github.com/googleapis/java-assured-workloads/compare/v0.4.0...v0.4.1) (2021-07-01)
 
 
