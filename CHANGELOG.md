@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://www.github.com/googleapis/java-assured-workloads/compare/v0.4.1...v0.5.0) (2021-08-04)
+
+
+### Features
+
+* configure initial sp version ([#284](https://www.github.com/googleapis/java-assured-workloads/issues/284)) ([c17c7c1](https://www.github.com/googleapis/java-assured-workloads/commit/c17c7c179b08ddd8e2f6b03a8ed2f4bac2b54b01))
+
 ### [0.4.1](https://www.github.com/googleapis/java-assured-workloads/compare/v0.4.0...v0.4.1) (2021-07-01)
 
 
