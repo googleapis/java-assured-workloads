@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-assured-workloads-bom</artifactId>
-  <version>1.0.0</version><!-- {x-version-update:google-cloud-assured-workloads:current} -->
+  <version>1.0.2-SNAPSHOT</version><!-- {x-version-update:google-cloud-assured-workloads:current} -->
   <packaging>pom</packaging>
   <parent>
     <groupId>com.google.cloud</groupId>
     <artifactId>google-cloud-shared-config</artifactId>
-    <version>1.2.6</version>
+    <version>1.2.7</version>
   </parent>
 
   <name>Google Assured Workloads for Government BOM</name>
@@ -56,27 +56,27 @@
       <dependency>
         <groupId>com.google.cloud</groupId>
         <artifactId>google-cloud-assured-workloads</artifactId>
-        <version>1.0.0</version><!-- {x-version-update:google-cloud-assured-workloads:current} -->
+        <version>1.0.2-SNAPSHOT</version><!-- {x-version-update:google-cloud-assured-workloads:current} -->
       </dependency>
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>grpc-google-cloud-assured-workloads-v1beta1</artifactId>
-        <version>0.10.0</version><!-- {x-version-update:grpc-google-cloud-assured-workloads-v1beta1:current} -->
+        <version>0.10.2-SNAPSHOT</version><!-- {x-version-update:grpc-google-cloud-assured-workloads-v1beta1:current} -->
       </dependency>
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>grpc-google-cloud-assured-workloads-v1</artifactId>
-        <version>1.0.0</version><!-- {x-version-update:grpc-google-cloud-assured-workloads-v1:current} -->
+        <version>1.0.2-SNAPSHOT</version><!-- {x-version-update:grpc-google-cloud-assured-workloads-v1:current} -->
       </dependency>
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>proto-google-cloud-assured-workloads-v1beta1</artifactId>
-        <version>0.10.0</version><!-- {x-version-update:proto-google-cloud-assured-workloads-v1beta1:current} -->
+        <version>0.10.2-SNAPSHOT</version><!-- {x-version-update:proto-google-cloud-assured-workloads-v1beta1:current} -->
       </dependency>
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>proto-google-cloud-assured-workloads-v1</artifactId>
-        <version>1.0.0</version><!-- {x-version-update:proto-google-cloud-assured-workloads-v1:current} -->
+        <version>1.0.2-SNAPSHOT</version><!-- {x-version-update:proto-google-cloud-assured-workloads-v1:current} -->
       </dependency>
     </dependencies>
   </dependencyManagement>
