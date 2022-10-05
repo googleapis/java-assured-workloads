@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/googleapis/java-assured-workloads/compare/v2.2.1...v2.3.0) (2022-10-03)
+
+
+### Features
+
+* Add apis for AssuredWorkload monitoring feature and to restrict allowed resources ([#485](https://github.com/googleapis/java-assured-workloads/issues/485)) ([8524235](https://github.com/googleapis/java-assured-workloads/commit/852423579c1be78b8463e3be69a12d90bb9d76fe))
+
 ## [2.2.1](https://github.com/googleapis/java-assured-workloads/compare/v2.2.0...v2.2.1) (2022-10-03)
 
 
