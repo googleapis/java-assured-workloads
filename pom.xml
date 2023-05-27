@@ -81,7 +81,7 @@
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>grpc-google-cloud-assured-workloads-v1beta1</artifactId>
-        <version>0.15.0</version><!-- {x-version-update:grpc-google-cloud-assured-workloads-v1beta1:current} -->
+        <version>0.30.0</version><!-- {x-version-update:grpc-google-cloud-assured-workloads-v1beta1:current} -->
       </dependency>
 
       <dependency>
